@@ -1,0 +1,13 @@
+{
+  "name": "xfq-website",
+  
+  "version": "1.0.0",
+  
+  "main": "index.js",
+  
+  "dependencies": {},
+  
+  "scripts": {
+    "start": "strapi start"
+  }
+}
