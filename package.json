@@ -9,7 +9,7 @@
     "build": "strapi build"
   },
   "dependencies": {
-    "strapi": "^4.15.0"
+    "@strapi/strapi": "^4.15.0"
   },
   "engines": {
     "node": ">=18.0.0",
@@ -17,4 +17,3 @@
   },
   "license": "MIT"
 }
-
