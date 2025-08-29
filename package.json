@@ -1,11 +1,20 @@
 {
   "name": "xfq-website",
   "version": "1.0.0",
+  "description": "Strapi-powered backend for xfq-website",
   "main": "index.js",
+  "scripts": {
+    "start": "strapi start",
+    "develop": "strapi develop",
+    "build": "strapi build"
+  },
   "dependencies": {
     "strapi": "^4.15.0"
   },
-  "scripts": {
-    "start": "strapi start"
-  }
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "license": "MIT"
 }
+
